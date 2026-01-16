@@ -34,6 +34,8 @@ Once compiled, you can run the program with the following options:
 ```
 ## Examples
 ### Capture IP 
+Captures the last lines of the auth.log file and checks if they match the suggested regex. Redirects to the end of a specified file.
+Tips: Always use double quotes when using regex.
 ```bash
 ./LogFileMonitor -t /var/log/auth.log -d redirected_log.txt -r  "(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}"
 ```
