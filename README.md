@@ -15,7 +15,7 @@ This C++ program monitors a specified log file for any modifications, reads the 
 This program requires the following:
 
 - A Linux environment (since it uses `inotify`).
-- The `g++` compiler (or another C++ compiler) to compile the program.
+- The `g++` compiler (or another C++ compiler) > c++11 to compile the program.
 
 ## Compilation
 
