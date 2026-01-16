@@ -31,3 +31,10 @@ g++ -std=c++17 main.cpp -o RedicLog
 Once compiled, you can run the program with the following options:
 ```bash
 ./LogFileMonitor -t <target_file> -d <redirect_file> -r <regex>
+```
+## Examples
+### Capture IP 
+´´´bash
+./LogFileMonitor -t /var/log/auth.log -d redirected_log.txt -r  "(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}"
+```
+
