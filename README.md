@@ -22,4 +22,4 @@ This program requires the following:
 To compile the program, run the following command:
 
 ```bash
-g++ -o LogFileMonitor LogFileMonitor.cpp
+g++ -std=c++17 main.cpp -o RedicLog
