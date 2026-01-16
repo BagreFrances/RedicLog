@@ -23,3 +23,9 @@ To compile the program, run the following command:
 
 ```bash
 g++ -std=c++17 main.cpp -o RedicLog
+
+## Usage
+
+Once compiled, you can run the program with the following options:
+```bash
+./LogFileMonitor -t <target_file> -d <redirect_file> -r <regex>
